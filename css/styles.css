@@ -1,15 +1,14 @@
 body{
-  background-image: linear-gradient(),url(images/bg.jpg);
-  height: 100vh;
+  background-image: url("../images/3.jpg");
+  background-position: center;
   background-size: cover;
   background-position: center;
 }
-
-.Triangle-page{
-  width: 360px
-  padding: 10% 0 0;
+.triangle-page{
+  width: 300px;
   margin: auto;
   text-align: center;
+  background: black;
 }
 
 .form{
@@ -23,6 +22,38 @@ body{
 }
 h1{
   text-align: center;
-  text-decoration-color: white;
+  text-transform: capitalize;
 
+}
+.form input{
+  font-family: sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: auto;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.form button{
+  shape-outside: padding-box;
+}
+.header {
+  text-align: center;
+  background-color: brown;
+  margin: auto;
+  height: auto;
+  width: 400px;
+  text-shadow: 0.5px 0.3px yellow;
+  color: white;
+
+
+}
+p{
+  text-align: center;
+  font-size: 15;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: red;
+  size: 25;
 }
