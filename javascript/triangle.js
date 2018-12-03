@@ -9,6 +9,9 @@ var triangle = function() {
         alert ("Equilateral Triangle");
       } else if (A==B || A==C || B == C) {
       alert ("Isosceles Triangle");
+    } else{
+      alert ("Scalene Triangle");
+    }
 }
   else {
     alert ("Not a triangle")
