@@ -5,4 +5,8 @@ var triangle = function() {
   var c = document.getElementById('c').value;
 
   if ((A+B>C) && (B+C>A) && (A+C>B)) {
+    if (A==B && A==C && B==C) {
+        alert ("Equilateral Triangle");
 }
+  else {
+    alert ("Not a triangle")
