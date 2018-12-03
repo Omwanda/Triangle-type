@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="javascript/triangle.js"></script>;
     <link rel="stylesheet" href="css/styles.css">
     <title>Triangle Tracker</title>
-  </head>
+  </head>;
   <body>
     <div class="header">
       <h1>TRIANGLE TRACKER</h1>
     </div>
     <div class="triangle-page">
-    <p>Please input the triange sides dimensions:</p>
+    <p>Please input the triangle sides dimensions:</p>
         <div class="form">
-        <form>
-        <input class="number" placeholder="Side-A"><br>
-        <input class="text" placeholder="Side-B"><br>
-        <input class="text" placeholder="Side-C"><br>
-        <input type="submit" value="Submit"
-        </form>
+        <input id="a" placeholder="Side-a"><br>
+        <input id="b" placeholder="Side-b"><br>
+        <input id="c" placeholder="Side-c"><br>
+        <input type="submit" onclick="triangle()" value="submit">
 
         </div>
       </div>
-
-  </body>
+  </body>;
 </html>
