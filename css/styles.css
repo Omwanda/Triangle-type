@@ -5,10 +5,12 @@ body{
   background-position: center;
 }
 .triangle-page{
-  width: 300px;
+  width: 390px;
   margin: auto;
   text-align: center;
-  background: black;
+  border-style: groove;
+  font-size: 20;
+  border-top-style: groove;
 }
 
 .form{
@@ -19,6 +21,7 @@ body{
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
+
 }
 h1{
   text-align: center;
@@ -51,9 +54,34 @@ h1{
 }
 p{
   text-align: center;
-  font-size: 15;
+  font-size: 25px;
   font-weight: bold;
   font-family: sans-serif;
   color: red;
   size: 25;
+}
+#A{
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+#B{
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+#C{
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+img{
+  float: left;
+
 }
