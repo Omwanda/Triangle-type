@@ -1,7 +1,7 @@
 var triangle = function() {
 
   var A = parseInt(document.getElementById('a').value);
-  var B = document.getElementById('b').value
+  var B = parseInt(document.getElementById('b').value);
   var C = document.getElementById('c').value
 
   if ((A + B > C) && (B + C > A) && (A + C > B)) {
