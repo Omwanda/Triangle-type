@@ -2,7 +2,7 @@ var triangle = function() {
 
   var A = parseInt(document.getElementById('a').value);
   var B = parseInt(document.getElementById('b').value);
-  var C = document.getElementById('c').value
+  var C = parseInt(document.getElementById('c').value);
 
   if ((A + B > C) && (B + C > A) && (A + C > B)) {
     if (A == B && A == C && B == C) {
