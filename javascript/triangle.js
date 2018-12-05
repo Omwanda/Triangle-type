@@ -1,8 +1,8 @@
 var triangle = function() {
 
-  var A = document.getElementById('a').value;
-  var B = document.getElementById('b').value;
-  var C = document.getElementById('c').value;
+  var A = parseInt(document.getElementById('a').value);
+  var B = document.getElementById('b').value
+  var C = document.getElementById('c').value
 
   if ((A + B > C) && (B + C > A) && (A + C > B)) {
     if (A == B && A == C && B == C) {
